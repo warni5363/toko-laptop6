@@ -1,0 +1,38 @@
+.header {
+    background-color: rgb(4, 4, 226);
+}
+
+.nav-link{
+    color: beige !important;
+}
+
+.navbar-brand{
+    color: beige !important;
+    font-weight: 700;
+}
+
+.kontak-form{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.kontak-form h1{
+    padding-bottom: 50px;
+}
+
+.kontak-form input[type="text"],
+.kontak-form input[type="Email"],
+.kontak-form textarea {
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.kontak-form button {
+   background-color: rgb(39, 37, 179);
+   color: aliceblue;
+
+}
+

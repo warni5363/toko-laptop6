@@ -1,0 +1,140 @@
+.header {
+    background-color: rgb(4, 4, 226);
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(47, 66, 240);
+    height: 90px;
+    padding-top: 30px;
+    color: aliceblue;
+}
+
+.nav-link{
+    color: beige !important;
+}
+
+.navbar-brand{
+    color: beige !important;
+    font-weight: 700;
+}
+
+.hero{
+    height: 600px;
+    background-size: cover;
+    background-image: url("hero.jpg");
+    text-align: center;
+    padding: 200px;
+}
+
+.hero h1{
+    color: blue;
+    font-size: 50px;
+}
+
+.hero p{
+    color: blue;
+    font-size: 30px;
+}
+
+.hero a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(72, 12, 238);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px ;
+    padding-right: 15px ;
+    border-radius: 25px;
+}
+
+.hero a:hover{
+    color: azure;
+    background-color: blue;
+}
+
+.produk{
+    background-color: rgb(247, 241, 241);
+    width: 230px;
+    height: 400px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.produk img{
+    height: 160px;
+    width: 230px;
+    
+}
+
+.nama-produk{
+    color: rgb(10, 10, 10);
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.harga-produk{
+    color: black;
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.produk a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(72, 12, 238);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    border-radius: 12px;
+    margin-left: 15px;
+    font-size: 15px ;
+}
+
+.menu-produk{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero{
+        padding: 50px;
+    }
+    
+    .produk{
+        width: 140px;
+        height: 300px;
+       
+    }
+
+    .produk img{
+        width: 150px;
+       
+    }
+
+    .nama-produk{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .produk a{
+   
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px ;
+        padding-right: 15px ;
+        font-size: 10px;
+       
+    }
+
+}
+
+
+
+
